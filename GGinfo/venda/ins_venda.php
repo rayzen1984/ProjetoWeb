@@ -16,6 +16,10 @@
 
         $sql = "INSERT INTO vendas(cliente,funcionario, computador, impressora, quantidade,preco)VALUES('$cliente','$funcionario','$computador', '$impressora', '$quantidade','$preco')";
 
+        $sql = "UPDATE dispositivos SET quantidade = quantidade - '$quantidade' where  $computador";
+
+        $sql = "UPDATE impressora SET quantidade = quantidade - '$quantidade' where  $impressora";
+        
         include "../conexao.php";
 
         if (mysqli_query($con, $sql)) {
