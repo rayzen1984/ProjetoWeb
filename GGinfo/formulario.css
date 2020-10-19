@@ -1,0 +1,108 @@
+.cadastro{
+    margin-top: 0%;
+	background: rgb(225,225,225);
+	width: max-content;
+	height: max-content;
+	margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -20px;
+    margin-top: -50px;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: cursive;
+	font-size: 12pt;
+    box-shadow: 10px 15px 13px rgb(136,136,136);
+	animation-name: movimento;
+	animation-duration: 5s;
+    animation-fill-mode: forwards;
+    text-align: justify;
+    
+}
+
+.consultar{
+	background: rgb(225,225,225);
+	width: max-content;
+	height: max-content;
+	margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -20px;
+    margin-top: -50px;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: cursive;
+	font-size: 12pt;
+    box-shadow: 10px 15px 13px rgb(136,136,136);
+	animation-name: movimento;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+	
+}
+
+
+.consultar th, .consultar tr, .consultar td{
+	padding-left: 10px;
+	text-align: left;
+	border: 1px solid black;
+}
+.consultar tr:hover{
+	background: rgb(146, 145, 145);
+}
+
+.cadastro h1{
+    text-align: center;
+}
+
+input[type=text], input[type=password], input[type=date], select, option{
+	width: max-content;
+	padding: 12px 66px 12px;
+	border: 1px solid rgb(204,204,204);
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+label{
+	padding: 10px;
+}
+
+input[type=submit]{
+	background: rgb(0,191,255);
+	color: white;
+	font-weight: bold;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	float: left;
+	margin-right: 5px;
+
+}
+button{
+	background: rgb(0,191,255);
+	color: white;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+input[type=submit]:hover{
+	background: blue;
+}
+button:hover{
+	background: blue;
+}
+input[type=reset]:hover{
+	background: brown;
+}
+
+label:after {
+	content: " *";
+	color: red;
+}
+@keyframes movimento{
+	from{opacity: 0}
+	to{opacity: 1}
+}
+
+

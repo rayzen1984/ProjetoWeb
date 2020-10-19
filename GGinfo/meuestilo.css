@@ -1,0 +1,137 @@
+ul{
+
+    list-style:none;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    font-size:24px;
+
+    color:white;
+
+}
+
+a:hover{
+    color:black;
+}
+
+a:visited{
+    color:white;
+}
+
+a:visited:hover {
+    color:black;
+}
+
+.topo {
+	/*color: white;*/
+	color: black;
+	text-align: center;
+	background: linear-gradient(360deg, grey, silver, white); /*fundo em degrade*/
+	/*background: rgb(26,139,188);*/
+	padding: 18px;
+}
+.logo {
+	font-size: 30pt; /* tamanho da fonte */
+	/*padding-top: 15px;  distancia em relação ao topo 
+	padding-left: 15px;  distancia em relação a esquerd */
+	float: center; /* flutuando a esquerda */
+}
+.rodape {
+	padding: 20px;
+	margin: 0px;
+	text-align: justify;
+	background: rgb(242,242,242);
+	position:absolute;
+	box-sizing: border-box;
+    width:99.2%;
+    height: flex;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14pt;
+
+}
+.direita{
+	margin-right: 20px;
+	width: 20%;
+	
+}
+
+.meio {
+	margin-right: 20px;
+	width: 20%;
+	
+}
+.esquerda{
+	margin-right: 20px;
+	width: 20%;
+	
+
+}
+.menu2 {
+    background: rgb(49,49,49);
+    /*overflow: hidden;*/
+    width: 100%;
+    height: 40px;
+    margin-top: -16px;
+    
+}
+.menu{
+    /*background: rgb(49,49,49);*/
+        background: rgb(49,49,49);
+        top: 0;
+        position: sticky;
+       
+}
+.menu ul li{
+    /*background: rgb(51,51,51);*/
+        background-color: rgb(49,49,49);
+        color: white;
+        text-decoration: none;
+        width: 150px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        font-size: 25px;
+        
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li:hover {
+	color: black;
+	/*background: rgb(242,242,242);*/
+	background: rgb(94, 95, 94);
+}
+.menu ul ul li:hover {
+	color: black;
+	/*background: rgb(242,242,242);*/
+	background: rgb(140, 141, 140);
+}
+.menu ul{
+    padding: 0;
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+
+.principal {
+	display: flex;
+	flex-wrap: wrap;
+}
+.centro {
+    font-size: 20pt;
+	flex: 100%;
+	box-sizing: border-box;
+    padding: 20px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    margin-right: auto;
+}
